@@ -6,3 +6,4 @@ Path
 os
 @property
 top_k and top_p
+scaler
