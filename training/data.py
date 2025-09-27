@@ -1,7 +1,7 @@
+from __future__ import annotations
 import torch
 from torch import nn
 from pathlib import Path
-from __future__ import annotations
 
 
 class byte_ds:

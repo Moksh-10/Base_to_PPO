@@ -1,3 +1,4 @@
+from __future__ import annotations
 import argparse
 import time
 import torch
@@ -6,7 +7,6 @@ import os
 from tokenizer import byte_tok
 from data import byte_ds
 from gpt import gpt1
-from __future__ import annotations
 
 def approx_loss(model: gpt1, ds: byte_ds, args) -> dict:
     model.eval()

@@ -1,7 +1,7 @@
+from __future__ import annotations
 import math
 import torch
 from torch import nn
-from __future__ import annotations
 import torch.nn.functional as f
 
 class att(nn.Module):

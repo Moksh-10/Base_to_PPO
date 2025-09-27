@@ -1,5 +1,5 @@
-import torch
 from __future__ import annotations
+import torch
 
 
 def top_k_top_p(logits: torch.Tensor, top_k: int | None = None, top_p: float | None = None):
